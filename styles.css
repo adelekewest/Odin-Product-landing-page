@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/communication-whirlpool-illustration-1024x768.png) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    font-size: 15px;
+}
+.main-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    align-items: center;
+}
+
+.buttons {
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+}
+
+h1 {
+    text-align: left;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color:#fff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 4px;
+    transition: 0.35s;
+
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 200px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 180px;
+}
+
+.paragraphs {
+    width: 30%;
+    font-size: 18px;
+    margin-top: -45px;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+button{
+    background-color: #ec6464;
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    margin: 0 -12px 0 -12px;
+}
+
+
